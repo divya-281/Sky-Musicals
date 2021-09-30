@@ -1,0 +1,141 @@
+
+header
+{
+    height: 5em;
+}
+
+body
+{
+    background-attachment: fixed;
+    background-size: cover;   
+    background-repeat: no-repeat;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-image: url("../images/bg_1.jpg");
+   
+    
+}
+    
+
+ @keyframes fadeInAnimation 
+{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+    
+.head-tag
+{
+    float:left;
+    margin-top: 2em;
+    
+}
+.tag
+{
+    text-decoration:none ;
+    color:white;
+    border:1px solid white;
+    padding: 1em;
+    margin-right: 1em;
+}
+ 
+.tag:hover
+{
+    background-color:whitesmoke;
+    color:black;
+    transition-delay: 0.5s ease-in-out;
+}
+
+
+.name
+{
+    font-size: 100px;
+    color: white;
+    text-align:left;
+    margin-top: 1em;
+}
+html {
+    scroll-behavior: smooth;
+  }
+ .row{
+     margin-top: 100px;
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.column
+
+{
+    background-color: white;
+    float:left;
+    width:280px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    padding:20px;
+}
+
+
+.picture
+{
+    height: 200px;
+    width: 200px;
+    margin-left: 41.5px;
+    margin-top: 41.5px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+.picture:hover {
+    
+    opacity: 0;
+    cursor: pointer;
+}
+.face
+{
+    height: 200px;
+    width: 200px;
+    margin-left: 41.5px;
+    margin-top: 41.5px;
+    
+
+}
+
+p a{
+    text-align: center;
+    font-weight: bold;
+    padding: 2em;
+    text-decoration: none;
+    color: black;
+}
+p a:hover{
+    color: thistle;
+}
+
+
+#teacher{
+    padding:1em;
+    font-weight: bold;
+    text-align: center;
+    visibility: hidden;
+}
+.picture:hover ~ #teacher
+{
+    visibility: visible;
+}
+.container
+{
+    background-color: white;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+}
+#social
+{
+    color:white;
+    padding:10px;
+    font-size:30px;
+
+}
+
