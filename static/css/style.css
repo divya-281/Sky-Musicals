@@ -60,10 +60,10 @@ html {
     scroll-behavior: smooth;
   }
  .row{
-     margin-top: 100px;
+     margin-top: 10%;
     background-color: white;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 12%;
+   
 }
 .column
 
