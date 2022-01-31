@@ -19,6 +19,8 @@ body
     animation-fill-mode: forwards;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    background-image: url("../images/bg_1.jpg");
+   font-size: 1vw;
+   
    
     
 }
@@ -34,7 +36,7 @@ body
 .head-tag
 {
     float:left;
-    margin-top: 2em;
+    margin-top: 2vw;
     
 }
 .tag
@@ -42,8 +44,8 @@ body
     text-decoration:none ;
     color:white;
     border:1px solid white;
-    padding: 1em;
-    margin-right: 1em;
+    padding: 1vw;
+    margin-right: 1vw;
 }
  
 .tag:hover
@@ -56,10 +58,14 @@ body
 
 .name
 {
-    font-size: 100px;
+    font-size: 7vw;
     color: white;
     text-align:left;
-    margin-top: 1em;
+    width:100%;
+   
+    
+  
+    
 }
 
  .row{
@@ -76,16 +82,16 @@ body
     background-color: white;
     float:left;
     width:24%;
-    margin: 3em;
+    margin: 3vw;
 }
 
 
 .picture
 {
 
-    height:12.5em;
-    width:12.5em;
-    margin:2.5em;
+    height:12.5vw;
+    width:12.5vw;
+    margin:2.5vw;
     position: absolute;
     transition: opacity 0.5s ease-in-out;
     
@@ -97,15 +103,15 @@ body
 }
 .face
 {
-    height:12.5em;
-    width:12.5em;
-    margin:2.5em;
+    height:12.5vw;
+    width:12.5vw;
+    margin:2.5vw;
 }
 
 p a{
     text-align: center;
     font-weight: bold;
-    padding: 2em;
+    padding: 2vw;
     text-decoration: none;
     color: black;
 }
@@ -115,7 +121,7 @@ p a:hover{
 
 
 #teacher{
-    padding:1em;
+    padding:1vw;
     font-weight: bold;
     text-align: center;
     visibility: hidden;
@@ -128,8 +134,9 @@ p a:hover{
 #social
 {
     color:white;
-    font-size:30px;
-    padding:0.3em;
+    font-size:2vw;
+    padding:0.3vw;
 
 }
+
 
